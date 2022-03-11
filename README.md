@@ -1,2 +1,2 @@
-# nlw-together-origin
+# Exercicio Rocktseat
  NLW
