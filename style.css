@@ -21,7 +21,6 @@ img {
 /*====  VARIABLES ============================ */
 :root {
   --header-height: 4.5rem;
-
   /* colors */
   --hue: 159;
   /* HSL color mode */
@@ -36,7 +35,7 @@ img {
 
 /*===  BASE ============================ */
 html {
-  scroll-behavior: smooth;
+ scroll-behavior: smooth;
 }
 
 body {
@@ -71,18 +70,14 @@ body {
 .divider-1 {
   height: 1px;
   background: linear-gradient(
-    270deg,
-    hsla(var(--hue), 36%, 57%, 1),
-    hsla(var(--hue), 65%, 88%, 0.34)
+    270deg, hsla(var(--hue), 36%, 57%, 1), hsla(var(--hue), 65%, 88%, 0.34)
   );
 }
 
 .divider-2 {
   height: 1px;
   background: linear-gradient(
-    270deg,
-    hsla(var(--hue), 65%, 88%, 0.34),
-    hsla(var(--hue), 36%, 57%, 1)
+    270deg, hsla(var(--hue), 65%, 88%, 0.34), hsla(var(--hue), 36%, 57%, 1)
   );
 }
 
@@ -186,13 +181,14 @@ nav ul li a:hover::after {
 nav .menu {
   opacity: 0;
   visibility: hidden;
-  top: -20rem;
-  transition: 0.2s;
+  left: -20rem;
+  transition: 0.4s;
 }
 
 nav .menu ul {
   display: none;
 }
+
 
 /* Mostrar menu */
 nav.show .menu {
@@ -235,7 +231,7 @@ nav .icon-close {
   top: -1.5rem;
   right: 1.5rem;
 
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 nav.show div.icon-close {
@@ -345,7 +341,7 @@ nav.show div.icon-close {
 
 .card i {
   display: block;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   font-size: 5rem;
   color: var(--base-color);
 }
