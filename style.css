@@ -420,6 +420,9 @@ nav.show div.icon-close {
 }
 
 /* swiper */
+.swiper-pagination{
+  position: relative;
+}
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
